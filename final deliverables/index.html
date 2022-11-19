@@ -1,0 +1,332 @@
+<!DOCTYPE html> 
+ <html > 
+  
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <title>VISUALIZING AND PREDICTING HEART DISEASES WITH AN INTERACTIVE DASHBOARD</title> 
+     
+ </head> 
+ <body> 
+     <section id="home"> 
+         <header> 
+             <div id="container"> 
+                 <ul> 
+                     <li><a href="#home"><b>HOME</b></a></li> 
+                     <li><a href="#content"><b>CONTENT</b></a>  
+                     <li><a href="#analytics"><b >ANALYTICS</b></a></li>
+                     <li><a href="#predict"><b>PREDICT</b></a></li>
+                   </ul> 
+             </div>
+            <div class="content">
+             <h1>VISUALIZING AND PREDICTING HEART DISEASES WITH AN INTERACTIVE DASHBOARD</h1>
+             <img src="./images/Heart.jpeg" alt="loading..."> 
+         </div>               
+     </section> 
+     <section id="content"> 
+         <h1>WHAT IS VISUALIZING AND PREDICTING HEART DISEASES ?</h1> 
+         <div class="para"> 
+             <p>Data visualization gives us a clear idea of what the information means by giving it visual context through maps or graphs. This makes the data more natural for the human mind to comprehend and therefore makes it easier to identify trends, patterns, and outliers within large data sets.
+Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data.
+
+                 Nowadays, humans face various diseases due to the current environmental condition and their living habits. The identification and prediction of such diseases at their earlier stages are much important, so as to prevent the extremity of it.
+there are various heart disease are present in today's life. </p> 
+         </div> 
+         <div class="box"> 
+             According to a news article, heart disease proves to be the leading cause of death for both women and men. The article states the following : 
+         </div> 
+         <div class="list"> 
+             <ul> 
+                 <li>More than half of the deaths due to heart disease in 2009 were in men.</li> 
+                 <li>Coronary Heart Disease(CHD) is the most common type of heart disease, killing over 370,000 people annually.</li> 
+                 <li>Every year about 735,000 Americans have a heart attack. Of these, 525,000 are a first heart attack and 210,000 happen in people who have already had a heart attack.</li> 
+             </ul> 
+         </div> 
+     </section> 
+     <section id="diagnosis"> 
+         <h1>HEARTDISEASES DIAGNOSED</h1> 
+         <div class="para1"> 
+             <h4>Physical exam and blood tests:</h4> 
+             <p>During your appointment, your doctor will ask you about your symptoms and your family medical history. They ll also check your heart rate and blood pressure. Your doctor may also order blood tests. Your doctor can use these tests to help determine your risk of heart disease and heart attack.</p> 
+             <h4>A complete cholesterol test checks four types of fats in your blood:</h4> 
+             <div class="list"> 
+                 <ul> 
+                     <li>Total cholesterol is the sum of all cholesterol in your blood.</li> 
+                     <li>Low-density lipoprotein (LDL) cholesterol is sometimes called  bad  cholesterol. Too much of it causes fat to build up in your arteries, which reduces blood flow. This can lead to a heart attack or stroke.</li> 
+                     <li>High-density lipoprotein (HDL) cholesterol is sometimes called  good  cholesterol. It helps carry away LDL cholesterol and clear your arteries.</li> 
+                     <li>Your doctor may also order C-reactive protein (CRP) tests to check your body for signs of inflammation. They can use the results of your CRP and cholesterol tests to assess your risk of heart disease.</li> 
+                 </ul> 
+             </div> 
+             <h4>Non invasive tests for heart disease:</h4> 
+             <div class="list"> 
+                 <ul> 
+                     <li>Electrocardiogram</li> 
+                     <li>Echocardiogram</li> 
+                     <li>Stress Test</li> 
+                     <li>Carotid Ultrasound</li> 
+                     <li>Holter Monitor</li> 
+                     <li>Chest X-ray</li> 
+                     <li>Tilt Table Test</li> 
+                     <li>CT Scan</li> 
+                     <li>Heart MRI</li> 
+                 </ul> 
+             </div> 
+         </div> 
+     </section> 
+     <section id="heartpredict"></section> 
+     <section id="goal"> 
+         <h1>GOALS</h1> 
+         <div class="goal"> 
+           
+             <p> 
+                  The main challenge in today's healthcare is provision of best quality services and effective accurate diagnosis. Even if heart diseases are found as the prime source of death in the world in recent years, they are also the ones that can be controlled and managed effectively. The whole accuracy in management of a disease lies on the proper time of detection of that disease. Our proposed model makes an attempt to detect these heart diseases at early stage to avoid disastrous consequences. 
+             </p> 
+         </div> 
+     </section> 
+     <section id="dataset"> 
+         <h1> 
+             DATASET DESCRIPTION 
+         </h1> 
+         <h2> 
+             HTML TABLE 
+         </h2> 
+         <div class="table"> 
+             <table> 
+                 <tr> 
+                     <th>s.no</th> 
+                     <th>Attribute</th> 
+                     <th>Description</th> 
+                     <th>Type</th> 
+                 </tr> 
+                 <tr> 
+                     <td>1</td> 
+                     <td>Age</td> 
+                     <td>Age of patient</td> 
+                     <td>Numeric</td> 
+                 </tr> 
+                 <tr> 
+                     <td>2</td> 
+                     <td>sex</td> 
+                     <td>Gender of patients</td> 
+                     <td>Nominal</td> 
+                 </tr> 
+                 <tr> 
+                     <td>3</td> 
+                     <td>Cp</td> 
+                     <td>Type of chest pain</td> 
+                     <td>Nominal</td> 
+                 </tr> 
+                 <tr> 
+                     <tr> 
+                         <td>4</td> 
+                         <td>Trestbps</td> 
+                         <td>Resting blood pressure</td> 
+                         <td>Numeric</td> 
+                     </tr> 
+                     <tr> 
+                         <td>5</td> 
+                         <td>Chol</td> 
+                         <td>Cholesterol level</td> 
+                         <td>Numeric</td> 
+                     </tr> 
+                     <tr> 
+                         <td>6</td> 
+                         <td>FBS</td> 
+                         <td>Fasting Blood sugar</td> 
+                         <td>Numeric</td> 
+                     </tr> 
+                     <tr> 
+                         <td>7</td> 
+                         <td>RestECG</td> 
+                         <td>Electrocardiographic result</td> 
+                         <td>Numeric</td> 
+                     </tr> 
+                     <tr> 
+                         <td>8</td> 
+                         <td>Thalach</td> 
+                         <td>The maximum heart attained by patient</td> 
+                         <td>Numeric</td> 
+                     </tr> 
+                     <tr> 
+                         <td>9</td> 
+                         <td>Exang</td> 
+                         <td>Exercise induced angina</td> 
+                         <td>Nominal</td> 
+                     </tr> 
+                     <tr> 
+                         <td>10</td> 
+                         <td>Oldpeak</td> 
+                         <td>ST depression induced angina</td> 
+                         <td>Numeric</td> 
+                     </tr> 
+             </table> 
+         </div> 
+     </section>
+         
+     <section id="predict"> 
+         <h1>HEART DISEASE PREDICTION</h1> 
+         
+         <div class="heart_table"> 
+             <div class="heart_box"> 
+                 <form action="{{ url_for('predict')}}" method="post"> 
+                     <pre> 
+                         <label>AGE</label> 
+                         <input type="number" name="age" id="age" placeholder="" required="required"/><br/>            
+                         <label>GENDER</label> 
+                         <input type="text" name="gender" id="sex" placeholder="" required="required"><br/> 
+                         <label>CHEST PAIN</label>  
+                         <input type="number" id="cp"placeholder="" required="required"><br/>
+                         <label>BLOOD PRESSURE</label>  
+                         <input type="number" id="testbps"placeholder="" required="required"><br/>  
+                         <label>CHOLESTEROL</label> 
+                         <input name="chol" id="chol" placeholder="" required="required"><br/>
+                         <label>FASTING BLOOD SUGAR</label>  
+                         <input type="number" id="fbs"placeholder="" required="required"><br/> 
+                         <label>RESTING ECG</label>  
+                         <input type="number" id="restecg"placeholder="" required="required"><br/>  
+                         <label>MAXIMUM HEART RATE</label> 
+                         <input type="number" id="thalach" placeholder="" required="required"><br/> 
+                         <label>EXERCISE INDUCED ANGINA</label>  
+                         <input type="number" id="exang"placeholder="" required="required"><br/> 
+                         <label>ASYMPTOMATIC CHEST PAIN</label>  
+                         <input type="number" id="oldpeak"placeholder="" required="required"><br/>     
+                         <label>HEART RATE SLOPE</label>  
+                         <input type="number" id="slope"placeholder="" required="required"><br/>
+                         <label>CALCIAM LEVEL</label>  
+                         <input type="number" id="ca"placeholder="" required="required"><br/> 
+                         <label>THALASSEMIA(IRON LEVEL)</label>  
+                         <input type="number" id="tha"placeholder="" required="required"><br/> 
+                     
+                     
+                        </pre> 
+             </div> 
+         </div> 
+         <button> 
+             SUBMIT 
+         </button> 
+     </section> 
+     <section id="analytics"> 
+         <h1>DATA VISUALIZATION USING IBM COGNOS ANALYTICS</h1> 
+                   <p>Data visualization can be done using IBM cognos where we can analyse,integrates reporting, modeling, analysis, dashboards, stories, and event management 
+                   so that you can understand your organization data, and make effective business decisions.
+                    </p>
+        <h2>EXPLORATION<h2>
+             <h3>1.Chest Pain by Age:</h3> 
+             <p> The most common value of Chest pain is 4, occurring 129 times, which is 47.8 % of the total.
+                Over all chest pains, the average of Age is 54.43.
+                The average values of Age range from 51.26, occurring when Chest pain is 2, to 55.85, when Chest pain is 1.
+                <img src="./images/chestpain.png" alt="loading..."
+                 height="400" 
+                 width="500"/ >
+            </p>
+         
+             <h3>2.Exploration Of BPvsChestPainType And Gender:</h3> 
+             <p> 
+                The most common value of Chest pain - Sex is 2|1, occurring 129 times, which is 47.8 % of the total.
+                The total number of results for Sex is 270.
+                Over all chest pain - sexes, the average of BP is 0.6778.
+                The average values of BP range from 0, occurring when Chest pain - Sex is 1|0, to 1, when Chest pain - Sex is 1|0.
+             </p>
+                <img src="./images/bpbyage.png" alt="loading..."
+                 height="400" 
+                 width="500"/> 
+          
+            
+             <h3>3.Exploration Of Max Heart Rate During The Chest Pain:</h3> 
+             <p>
+                The total number of results for Max HR, across all chest pain - sexes, is 270.
+The most common value of Chest pain - Sex is 2|1, occurring 129 times, which is 47.8 % of the total.
+The largest value of Max HR is 1, occurring when Chest pain - Sex is 1|0. Your maximum heart rate is a calculation that helps you figure out what your ideal target heart rate is during exercise. When your heart rate is too fast, it s called tachycardia. For adults, a fast heart rate is defined as above 100 bpm. Tachycardia can be caused by underlying health conditions like: anemia, congenital heart disease, heart disease that s affecting blood flow, hyperthyroidism, injury to the heart, like from a heart attack. Taking illegal drugs or misusing prescription medications or non-prescription products (like diet supplements) may also cause your heart to beat too fast. Other, less serious reasons for a fast heart rate include: drinking caffeine, drinking alcohol, stress, physical exercise, pregnancy etc. 
+             </p> 
+                 <img src="./images/maxhr.png" alt="loading..."
+                 height="400" 
+                 width="500"/> 
+             <h3>4.Exploration Of BP By Age:</h3> 
+             <p>
+                 Over all ages, the average of BP is 131.3. The average values of BP range from 117, occurring when Age is 47, to 149.2, when Age is 59.BP is unusually high when Age is 59.
+ The most common values of Age are 54 (5.9 %) and 58 (5.6 %), together occurring 31 times, which is 11.5 % of the total.                 Blood pressure is the force of blood flowing through a person s blood vessels. Doctors calculate a person s blood pressure using two measurements known as systolic and diastolic. Systolic blood pressure is the highest level of force at which the heart pumps blood around the body. Diastolic blood pressure is the resistance to the blood flow in the blood vessels. If either measurement is too high, it could mean a person has high blood pressure. If they are too low, it could suggest low blood pressure. Normal =Less than 120and Less than 80, Elevated =120 129 and Less than 80, Hypertension =stage 1 130 139 or 80 89, Hypertension =stage 2 140 or higher or 90 or higher, Hypertension crisis =Higher than 180 or Higher than 120... 
+             </p> 
+                  <img src="./images/bp.png" alt="loading..."
+                 height="400" 
+                 width="500"/> 
+        
+             <h3>5.Exploration Of Chorestrol By Age And Gender:</h3> 
+             <p> 
+                 Cholesterol is a waxy, fat-like substance, and there are two types: low-density lipoprotein (LDL) and high-density lipoprotein (HDL). If there is too much LDL, or  bad,  cholesterol in the bloodstream, it can build up in blood vessels, forming fatty deposits called plaques.These plaques can lead to other problems, including heart attacks and strokes. Total and LDL cholesterol levels should be low. But having more HDL, or  good,  cholesterol in the blood may reduce the risk of a heart attack or stroke. Typically, males tend to have higher levels throughout their lives than females. A male s cholesterol levels increase with age, and a female s cholesterol levels rise after menopause.  
+                 The most common values of Age are 54 (5.9 %) and 58 (5.6 %), together occurring 31 times, which is 11.5 % of the total.
+                 The most common value of Sex is 1, occurring 183 times, which is 67.8 % of the total.
+                 Over all ages and sexes, the average of Cholestero is 249.7.
+                 The average values of Cholestero range from 182 to 354.7.
+                 Cholestero is unusually high when the combination of Age and Sex is 67 and 0.
+             </p> 
+                 <img src="./images/chol.png" alt="loading..."
+                 height="400" 
+                 width="500"/> 
+         </div> 
+              
+</h2>
+
+         <div class="last_table"> 
+             <table> 
+                 <tr> 
+                 <th>Type of cholesterol</th> 
+                 <th>Anyone 19 or younger</th>  
+                 <th>Men aged 20 or over</th> 
+                 <th>Women aged 20 or over</th> 
+                 </tr> 
+                 
+                 <tr> 
+                 <td>total cholesterol</td>          
+                 <td>less than 170 mg/dl</td>         
+                 <td>125 200 mg/dl</td>               
+                 <td>125 200 mg/dl</td> 
+                 </tr> 
+                  
+                 <tr> 
+                 <td>non-HDL</td>          
+                 <td>less than 120 mg/dl</td>         
+                 <td>less than 130 mg/dl</td>               
+                 <td>less than 130 mg/dl</td> 
+                 </tr> 
+                 
+                 <tr> 
+                 <td>LDL</td>          
+                 <td>less than 100 mg/dl</td>         
+                 <td>less than 100 mg/dl</td>               
+                 <td>less than 100 mg/dl</td> 
+                 </tr> 
+                 
+                 <tr> 
+                 <td>HDL</td>          
+                 <td>more than 45 mg/dl</td>         
+                 <td>40 mg/dl or higher</td>               
+                 <td>50 mg/dl or higher</td> 
+                 </tr> 
+             </table> 
+         </div> 
+     </section> 
+             <a href="https://us1.ca.analytics.ibm.com/bi/?perspective=explore&pathRef=.my_folders%2Fexploration&subView=model000001847a3d8b66_00000000" >click here to visit data exploration in ibm cognos</a>
+         <h2>DASHBOARD</h2>
+<p>A dashboard helps you to monitor events or activities at a glance by providing key insights and analysis about your data on one or more pages or screens.
+</p>          
+
+             <a href="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&pathRef=.my_folders%2Fheart_disease_prediction_%2Bdashboard&action=view&mode=dashboard&subView=model000001847a5cbc35_00000000">click here to visit data dashboard</a>
+            
+      <h2>STORY</h2>
+         <p> A story is a type of view that contains a set of scenes that are displayed in sequence over time. 
+Stories are similar to dashboards because they also use visualizations to share your insights. Stories differ from dashboards because they provide an over-time narrative and can convey a conclusion or recommendation.
+           </p>
+             <a href="https://us1.ca.analytics.ibm.com/bi/?perspective=story&pathRef=.my_folders%2FStory%253A%2BNew%2Bexploration&action=view&sceneId=model000001848babdec6_00000004&sceneTime=0">click here</a>
+             <P> 
+                 Heart disease prediction is a necessity as well as exigent work in the medical field. The mortality rate can be reduced if the disease is recognized at the initial stages, and precautions and proper treatment are possible. The algorithms are tested using 
+                 various features. Accurate forecasting of the diseases is the goal of the proposed method. The decision classifier approach proved to be very efficacious to predict the diseased using features like age, BMI, cholesterol, and more. Adding 
+                 feature BMI improved the accuracy of prediction. Our project focuses on analyzing and designing a system where patients  
+                 real-time information can be processed and evaluated based on previous symptoms and current symptoms for different diseases. 
+             </P> 
+         </div> 
+  
+     </section> 
+ </body> 
+  
+ </html>
